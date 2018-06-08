@@ -16,11 +16,11 @@
  
 
 # 输入元素
-多数情况下被用到的表单是输入标签(<input>）。
+多数情况下被用到的表单是输入标签(`<input>`）。
 
 输入类型是由类型属性（type）定义的。输入类型如下：
 ### 文本域
-- 通过<input type="text">来设定
+- 通过`<input type="text">`来设定
 - 适用范围：当用户要在表单中输入字母、数字等内容
 
 - 例： 
@@ -31,7 +31,7 @@
 </form>
 ```
 ### 密码
-- 通过<input type="password">来定义
+- 通过`<input type="password">`来定义
 - 例：
 ```
 <form>
@@ -39,7 +39,7 @@
 </form>
 ```
 ### 单选按钮
-- 通过<input type="radio">来定义
+- 通过`<input type="radio">`来定义
 - 例：
 
 ```
@@ -51,7 +51,7 @@
 </form>
 ```
 ### 复选框
-- 通过<input type="checkbox">来定义
+- 通过`<input type="checkbox">`来定义
 - 例：
 
 ```
@@ -61,7 +61,7 @@
 </form>
 ```
 ### 提交按钮
-- 通过<input type="submit">来定义
+- 通过`<input type="submit">`来定义
 - 当用户单击确认按钮时，表单的内容会被传送到另一个文件。表单的动作属性定义了目的文件的文件名。由动作属性定义的这个文件通常会对接收到的输入数据进行相关的处理。
 - 例：
 
@@ -73,7 +73,7 @@ Username:<input type="text" name="user">
 
 ```
 ### 复位按钮
-- 通过<input type="reset">来定义
+- 通过`<input type="reset">`来定义
 
 ### 多行文本框
 - 基本语法:
@@ -97,12 +97,12 @@ Username:<input type="text" name="user">
 </select>
 ```
 ## Action属性
-- ==action 属性==定义在提交表单时执行的动作。
+- action 属性定义在提交表单时执行的动作。
 - 向服务器提交表单的通常做法是使用提交按钮。
 - 通常，表单会被提交到web服务器上的网页。
 - 若省略action属性，则action会被设置为当前页面。
 ## Method属性
-- method属性规定在提交表单时所用的HTTP方法(==GET==/==POST==)
+- method属性规定在提交表单时所用的HTTP方法(GET/POST)
 ### GET使用：
 - 如果表单提交是被动的（比如搜索引擎查询），并且没有敏感信息。
 
